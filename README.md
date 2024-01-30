@@ -1,3 +1,3 @@
-# template-common-setup
+#  Form Validation with JavaScript
 
-I found myself reusing a lot of setup code, so the idea here is to create a new repository with this common setup to use it as a template.
+I'll build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields. It should use live inline validation to inform the user whether a field is properly filled in or not. That means highlighting a field red and providing a helpful error message until it has been filled in properly.
