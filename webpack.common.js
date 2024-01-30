@@ -7,8 +7,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "My Awesome application",
-      myPageHeader: "Hello World",
+      title: "Form Validation with JavaScript",
       template: "./src/index.html",
       filename: "./index.html",
     }),
