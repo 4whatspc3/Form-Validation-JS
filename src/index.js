@@ -1,39 +1,19 @@
 import "./style.css";
 
-const form = document.querySelector('form');
+import verifyEmail from "./emailValidation";
 
-const email =  document.querySelector('#user_email');
+const component = () => {
+  const { form, email, emailError } = verifyEmail();
 
-const emailError = document.querySelector('#user_email + .error');
+  return { form, email, emailError };
+};
 
-email.addEventListener('input', (e) => {
-    if(email.validity.valid){
-        emailError.textContent = '';
+const page = component();
 
-        emailError.className = 'error';
-    } else {
-        showError();
-    }
-});
+page.form;
 
-form.addEventListener('submit', (e) => {
-    if(!email.validity.valid){
-        showError();
+page.email;
 
-        e.preventDefault();
-    }
-});
+page.emailError;
 
-function showError() {
-    if(email.validity.valueMissing){
-        emailError.textContent = 'You need to enter an email address';
-    } else if (email.validity.typeMismatch){
-        emailError.textContent = 'Entered value needs to be an email address';
-    } else if (email.validity.tooShort) {
-        emailError.textContent = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
-    }
-
-    emailError.className = 'error active';
-}
-
-console.log('abelha')
+console.log("abelha");
