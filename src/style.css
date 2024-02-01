@@ -29,7 +29,8 @@ input:focus:invalid {
   outline: none;
 }
 
-.error {
+.error,
+ul {
   font-size: 80%;
   color: white;
   background-color: #900;
