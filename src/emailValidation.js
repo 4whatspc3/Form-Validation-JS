@@ -35,8 +35,6 @@ const verifyEmail = () => {
     emailError.className = "error active";
   }
 
-  console.log("abelha");
-
   return { form, email, emailError };
 };
 

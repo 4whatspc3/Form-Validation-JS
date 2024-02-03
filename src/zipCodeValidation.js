@@ -5,7 +5,7 @@ const verifyZipCode = () => {
 
   const zipCodeError = document.querySelector("#zip_code + .error");
 
-  const warnings = document.querySelector(".warnings");
+  const warnings = document.querySelector(".zip_code.warnings");
 
   zipCode.addEventListener("input", () => {
     if (isValidZipCode(zipCode.value)) {
