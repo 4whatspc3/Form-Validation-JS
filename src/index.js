@@ -8,6 +8,8 @@ import verifyZipCode from "./zipCodeValidation";
 
 import verifyPassword from "./passwordValidation";
 
+import verifyConfirmPassword from "./confirmValidation";
+
 const component = () => {
   const { form, email, emailError } = verifyEmail();
 
@@ -16,6 +18,8 @@ const component = () => {
   const { zipCode, zipCodeError } = verifyZipCode();
 
   const { password, passwordError } = verifyPassword();
+
+  const { confirm_password, confirmError } = verifyConfirmPassword();
 
   return {
     form,
@@ -27,6 +31,8 @@ const component = () => {
     zipCodeError,
     password,
     passwordError,
+    confirm_password,
+    confirmError
   };
 };
 
@@ -50,4 +56,6 @@ page.password;
 
 page.passwordError;
 
-console.log("abelha");
+page.confirm_password;
+
+page.confirmError;
