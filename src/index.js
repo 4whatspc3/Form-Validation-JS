@@ -1,14 +1,14 @@
 import "./style.css";
 
-import verifyEmail from "./emailValidation";
+import verifyEmail from "./validation/emailValidation";
 
-import verifyCountry from "./countryValidation";
+import verifyCountry from "./validation/countryValidation";
 
-import verifyZipCode from "./zipCodeValidation";
+import verifyZipCode from "./validation/zipCodeValidation";
 
-import verifyPassword from "./passwordValidation";
+import verifyPassword from "./validation/passwordValidation";
 
-import verifyConfirmPassword from "./confirmValidation";
+import verifyConfirmPassword from "./validation/confirmValidation";
 
 const component = () => {
   const { form, email, emailError } = verifyEmail();
@@ -32,30 +32,12 @@ const component = () => {
     password,
     passwordError,
     confirm_password,
-    confirmError
+    confirmError,
   };
 };
 
 const page = component();
 
-page.form;
-
-page.email;
-
-page.emailError;
-
-page.country;
-
-page.countryError;
-
-page.zipCode;
-
-page.zipCodeError;
-
-page.password;
-
-page.passwordError;
-
-page.confirm_password;
-
-page.confirmError;
+for (let key in page) {
+  page[key];
+}

@@ -13,7 +13,6 @@ const verifyCountry = () => {
     } else {
       showError();
     }
-    console.log("banana");
   });
 
   form.addEventListener("submit", (e) => {
