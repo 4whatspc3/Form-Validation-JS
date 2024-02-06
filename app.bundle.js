@@ -13,16 +13,16 @@
         ]),
           i.push([
             e.id,
-            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}',
+            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  width: 100%;\n  font-size: 40px;\n  font-weight: bold;\n  color: white;\n  background-color: orange;\n  padding: 10px;\n}\n\n.title p {\n  text-align: center;\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 350px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}\n',
             "",
             {
               version: 3,
               sources: ["webpack://./src/style.css"],
               names: [],
               mappings:
-                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;EACxB,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;;EAEE,iBAAiB;EACjB,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,YAAY;AACd",
+                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,WAAW;EACX,eAAe;EACf,iBAAiB;EACjB,YAAY;EACZ,wBAAwB;EACxB,aAAa;AACf;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;EACxB,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;;EAEE,iBAAiB;EACjB,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,YAAY;AACd",
               sourcesContent: [
-                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}',
+                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  width: 100%;\n  font-size: 40px;\n  font-weight: bold;\n  color: white;\n  background-color: orange;\n  padding: 10px;\n}\n\n.title p {\n  text-align: center;\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 350px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}\n',
               ],
               sourceRoot: "",
             },
@@ -125,19 +125,19 @@
               d = a[l] || 0,
               u = "".concat(l, " ").concat(d);
             a[l] = d + 1;
-            var p = t(u),
-              m = {
+            var A = t(u),
+              p = {
                 css: c[1],
                 media: c[2],
                 sourceMap: c[3],
                 supports: c[4],
                 layer: c[5],
               };
-            if (-1 !== p) n[p].references++, n[p].updater(m);
+            if (-1 !== A) n[A].references++, n[A].updater(p);
             else {
-              var A = o(m, r);
+              var m = o(p, r);
               (r.byIndex = s),
-                n.splice(s, 0, { identifier: u, updater: A, references: 1 });
+                n.splice(s, 0, { identifier: u, updater: m, references: 1 });
             }
             i.push(u);
           }
@@ -298,16 +298,16 @@
         l = t(216),
         d = t.n(l),
         u = t(589),
-        p = t.n(u),
-        m = t(426),
-        A = {};
-      (A.styleTagTransform = p()),
-        (A.setAttributes = c()),
-        (A.insert = i().bind(null, "head")),
-        (A.domAPI = o()),
-        (A.insertStyleElement = d()),
-        n()(m.Z, A),
-        m.Z && m.Z.locals && m.Z.locals;
+        A = t.n(u),
+        p = t(426),
+        m = {};
+      (m.styleTagTransform = A()),
+        (m.setAttributes = c()),
+        (m.insert = i().bind(null, "head")),
+        (m.domAPI = o()),
+        (m.insertStyleElement = d()),
+        n()(p.Z, m),
+        p.Z && p.Z.locals && p.Z.locals;
       const f = () => {
           const e = document.querySelector("form"),
             n = document.querySelector("#confirm_password"),
