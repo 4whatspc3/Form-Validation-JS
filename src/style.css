@@ -13,15 +13,36 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  padding: 10px;
+}
+
+.title p {
+  text-align: center;
+}
+
 .main-container {
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .form-container {
-  min-height: 300px;
+  min-height: 350px;
   width: 400px;
   border-radius: 10px;
   border: 1px solid orange;
