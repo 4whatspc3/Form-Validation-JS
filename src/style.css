@@ -13,6 +13,30 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.main-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  min-height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  border-bottom: 20px solid orange;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  gap: 20px;
+}
+
 input[type="email"] {
   appearance: none;
   border: 1px solid #000000;
@@ -29,12 +53,18 @@ input:focus:invalid {
   outline: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .error,
 ul {
+  font-weight: bold;
   font-size: 80%;
   color: white;
   background-color: #900;
   border-radius: 0 0 5px 5px;
+  margin-top: 6px;
 }
 
 .error.active {
