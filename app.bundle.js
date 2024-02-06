@@ -1,28 +1,28 @@
 (() => {
   "use strict";
   var e = {
-      426: (e, t, n) => {
-        n.d(t, { Z: () => s });
-        var r = n(537),
-          o = n.n(r),
-          a = n(645),
-          i = n.n(a)()(o());
+      426: (e, n, t) => {
+        t.d(n, { Z: () => s });
+        var r = t(537),
+          o = t.n(r),
+          a = t(645),
+          i = t.n(a)()(o());
         i.push([
           e.id,
           "@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);",
         ]),
           i.push([
             e.id,
-            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\n.error,\nul {\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
+            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
             "",
             {
               version: 3,
               sources: ["webpack://./src/style.css"],
               names: [],
               mappings:
-                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;;EAEE,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;AAC5B;;AAEA;EACE,cAAc;AAChB",
+                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;EACxB,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;;EAEE,iBAAiB;EACjB,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB",
               sourcesContent: [
-                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\n.error,\nul {\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
+                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
               ],
               sourceRoot: "",
             },
@@ -31,29 +31,29 @@
       },
       645: (e) => {
         e.exports = function (e) {
-          var t = [];
+          var n = [];
           return (
-            (t.toString = function () {
-              return this.map(function (t) {
-                var n = "",
-                  r = void 0 !== t[5];
+            (n.toString = function () {
+              return this.map(function (n) {
+                var t = "",
+                  r = void 0 !== n[5];
                 return (
-                  t[4] && (n += "@supports (".concat(t[4], ") {")),
-                  t[2] && (n += "@media ".concat(t[2], " {")),
+                  n[4] && (t += "@supports (".concat(n[4], ") {")),
+                  n[2] && (t += "@media ".concat(n[2], " {")),
                   r &&
-                    (n += "@layer".concat(
-                      t[5].length > 0 ? " ".concat(t[5]) : "",
+                    (t += "@layer".concat(
+                      n[5].length > 0 ? " ".concat(n[5]) : "",
                       " {",
                     )),
-                  (n += e(t)),
-                  r && (n += "}"),
-                  t[2] && (n += "}"),
-                  t[4] && (n += "}"),
-                  n
+                  (t += e(n)),
+                  r && (t += "}"),
+                  n[2] && (t += "}"),
+                  n[4] && (t += "}"),
+                  t
                 );
               }).join("");
             }),
-            (t.i = function (e, n, r, o, a) {
+            (n.i = function (e, t, r, o, a) {
               "string" == typeof e && (e = [[null, e, void 0]]);
               var i = {};
               if (r)
@@ -61,71 +61,71 @@
                   var c = this[s][0];
                   null != c && (i[c] = !0);
                 }
-              for (var u = 0; u < e.length; u++) {
-                var l = [].concat(e[u]);
-                (r && i[l[0]]) ||
+              for (var l = 0; l < e.length; l++) {
+                var d = [].concat(e[l]);
+                (r && i[d[0]]) ||
                   (void 0 !== a &&
-                    (void 0 === l[5] ||
-                      (l[1] = "@layer"
-                        .concat(l[5].length > 0 ? " ".concat(l[5]) : "", " {")
-                        .concat(l[1], "}")),
-                    (l[5] = a)),
-                  n &&
-                    (l[2]
-                      ? ((l[1] = "@media "
-                          .concat(l[2], " {")
-                          .concat(l[1], "}")),
-                        (l[2] = n))
-                      : (l[2] = n)),
+                    (void 0 === d[5] ||
+                      (d[1] = "@layer"
+                        .concat(d[5].length > 0 ? " ".concat(d[5]) : "", " {")
+                        .concat(d[1], "}")),
+                    (d[5] = a)),
+                  t &&
+                    (d[2]
+                      ? ((d[1] = "@media "
+                          .concat(d[2], " {")
+                          .concat(d[1], "}")),
+                        (d[2] = t))
+                      : (d[2] = t)),
                   o &&
-                    (l[4]
-                      ? ((l[1] = "@supports ("
-                          .concat(l[4], ") {")
-                          .concat(l[1], "}")),
-                        (l[4] = o))
-                      : (l[4] = "".concat(o))),
-                  t.push(l));
+                    (d[4]
+                      ? ((d[1] = "@supports ("
+                          .concat(d[4], ") {")
+                          .concat(d[1], "}")),
+                        (d[4] = o))
+                      : (d[4] = "".concat(o))),
+                  n.push(d));
               }
             }),
-            t
+            n
           );
         };
       },
       537: (e) => {
         e.exports = function (e) {
-          var t = e[1],
-            n = e[3];
-          if (!n) return t;
+          var n = e[1],
+            t = e[3];
+          if (!t) return n;
           if ("function" == typeof btoa) {
-            var r = btoa(unescape(encodeURIComponent(JSON.stringify(n)))),
+            var r = btoa(unescape(encodeURIComponent(JSON.stringify(t)))),
               o =
                 "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(
                   r,
                 ),
               a = "/*# ".concat(o, " */");
-            return [t].concat([a]).join("\n");
+            return [n].concat([a]).join("\n");
           }
-          return [t].join("\n");
+          return [n].join("\n");
         };
       },
       379: (e) => {
-        var t = [];
-        function n(e) {
-          for (var n = -1, r = 0; r < t.length; r++)
-            if (t[r].identifier === e) {
-              n = r;
+        var n = [];
+        function t(e) {
+          for (var t = -1, r = 0; r < n.length; r++)
+            if (n[r].identifier === e) {
+              t = r;
               break;
             }
-          return n;
+          return t;
         }
         function r(e, r) {
           for (var a = {}, i = [], s = 0; s < e.length; s++) {
             var c = e[s],
-              u = r.base ? c[0] + r.base : c[0],
-              l = a[u] || 0,
-              d = "".concat(u, " ").concat(l);
-            a[u] = l + 1;
-            var p = n(d),
+              l = r.base ? c[0] + r.base : c[0],
+              d = a[l] || 0,
+              u = "".concat(l, " ").concat(d);
+            a[l] = d + 1;
+            var p = t(u),
               m = {
                 css: c[1],
                 media: c[2],
@@ -133,32 +133,32 @@
                 supports: c[4],
                 layer: c[5],
               };
-            if (-1 !== p) t[p].references++, t[p].updater(m);
+            if (-1 !== p) n[p].references++, n[p].updater(m);
             else {
-              var f = o(m, r);
+              var A = o(m, r);
               (r.byIndex = s),
-                t.splice(s, 0, { identifier: d, updater: f, references: 1 });
+                n.splice(s, 0, { identifier: u, updater: A, references: 1 });
             }
-            i.push(d);
+            i.push(u);
           }
           return i;
         }
-        function o(e, t) {
-          var n = t.domAPI(t);
+        function o(e, n) {
+          var t = n.domAPI(n);
           return (
-            n.update(e),
-            function (t) {
-              if (t) {
+            t.update(e),
+            function (n) {
+              if (n) {
                 if (
-                  t.css === e.css &&
-                  t.media === e.media &&
-                  t.sourceMap === e.sourceMap &&
-                  t.supports === e.supports &&
-                  t.layer === e.layer
+                  n.css === e.css &&
+                  n.media === e.media &&
+                  n.sourceMap === e.sourceMap &&
+                  n.supports === e.supports &&
+                  n.layer === e.layer
                 )
                   return;
-                n.update((e = t));
-              } else n.remove();
+                t.update((e = n));
+              } else t.remove();
             }
           );
         }
@@ -167,77 +167,77 @@
           return function (e) {
             e = e || [];
             for (var i = 0; i < a.length; i++) {
-              var s = n(a[i]);
-              t[s].references--;
+              var s = t(a[i]);
+              n[s].references--;
             }
-            for (var c = r(e, o), u = 0; u < a.length; u++) {
-              var l = n(a[u]);
-              0 === t[l].references && (t[l].updater(), t.splice(l, 1));
+            for (var c = r(e, o), l = 0; l < a.length; l++) {
+              var d = t(a[l]);
+              0 === n[d].references && (n[d].updater(), n.splice(d, 1));
             }
             a = c;
           };
         };
       },
       569: (e) => {
-        var t = {};
-        e.exports = function (e, n) {
+        var n = {};
+        e.exports = function (e, t) {
           var r = (function (e) {
-            if (void 0 === t[e]) {
-              var n = document.querySelector(e);
+            if (void 0 === n[e]) {
+              var t = document.querySelector(e);
               if (
                 window.HTMLIFrameElement &&
-                n instanceof window.HTMLIFrameElement
+                t instanceof window.HTMLIFrameElement
               )
                 try {
-                  n = n.contentDocument.head;
+                  t = t.contentDocument.head;
                 } catch (e) {
-                  n = null;
+                  t = null;
                 }
-              t[e] = n;
+              n[e] = t;
             }
-            return t[e];
+            return n[e];
           })(e);
           if (!r)
             throw new Error(
               "Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.",
             );
-          r.appendChild(n);
+          r.appendChild(t);
         };
       },
       216: (e) => {
         e.exports = function (e) {
-          var t = document.createElement("style");
-          return e.setAttributes(t, e.attributes), e.insert(t, e.options), t;
+          var n = document.createElement("style");
+          return e.setAttributes(n, e.attributes), e.insert(n, e.options), n;
         };
       },
-      565: (e, t, n) => {
+      565: (e, n, t) => {
         e.exports = function (e) {
-          var t = n.nc;
-          t && e.setAttribute("nonce", t);
+          var n = t.nc;
+          n && e.setAttribute("nonce", n);
         };
       },
       795: (e) => {
         e.exports = function (e) {
           if ("undefined" == typeof document)
             return { update: function () {}, remove: function () {} };
-          var t = e.insertStyleElement(e);
+          var n = e.insertStyleElement(e);
           return {
-            update: function (n) {
-              !(function (e, t, n) {
+            update: function (t) {
+              !(function (e, n, t) {
                 var r = "";
-                n.supports && (r += "@supports (".concat(n.supports, ") {")),
-                  n.media && (r += "@media ".concat(n.media, " {"));
-                var o = void 0 !== n.layer;
+                t.supports && (r += "@supports (".concat(t.supports, ") {")),
+                  t.media && (r += "@media ".concat(t.media, " {"));
+                var o = void 0 !== t.layer;
                 o &&
                   (r += "@layer".concat(
-                    n.layer.length > 0 ? " ".concat(n.layer) : "",
+                    t.layer.length > 0 ? " ".concat(t.layer) : "",
                     " {",
                   )),
-                  (r += n.css),
+                  (r += t.css),
                   o && (r += "}"),
-                  n.media && (r += "}"),
-                  n.supports && (r += "}");
-                var a = n.sourceMap;
+                  t.media && (r += "}"),
+                  t.supports && (r += "}");
+                var a = t.sourceMap;
                 a &&
                   "undefined" != typeof btoa &&
                   (r +=
@@ -245,166 +245,166 @@
                       btoa(unescape(encodeURIComponent(JSON.stringify(a)))),
                       " */",
                     )),
-                  t.styleTagTransform(r, e, t.options);
-              })(t, e, n);
+                  n.styleTagTransform(r, e, n.options);
+              })(n, e, t);
             },
             remove: function () {
               !(function (e) {
                 if (null === e.parentNode) return !1;
                 e.parentNode.removeChild(e);
-              })(t);
+              })(n);
             },
           };
         };
       },
       589: (e) => {
-        e.exports = function (e, t) {
-          if (t.styleSheet) t.styleSheet.cssText = e;
+        e.exports = function (e, n) {
+          if (n.styleSheet) n.styleSheet.cssText = e;
           else {
-            for (; t.firstChild; ) t.removeChild(t.firstChild);
-            t.appendChild(document.createTextNode(e));
+            for (; n.firstChild; ) n.removeChild(n.firstChild);
+            n.appendChild(document.createTextNode(e));
           }
         };
       },
     },
-    t = {};
-  function n(r) {
-    var o = t[r];
+    n = {};
+  function t(r) {
+    var o = n[r];
     if (void 0 !== o) return o.exports;
-    var a = (t[r] = { id: r, exports: {} });
-    return e[r](a, a.exports, n), a.exports;
+    var a = (n[r] = { id: r, exports: {} });
+    return e[r](a, a.exports, t), a.exports;
   }
-  (n.n = (e) => {
-    var t = e && e.__esModule ? () => e.default : () => e;
-    return n.d(t, { a: t }), t;
+  (t.n = (e) => {
+    var n = e && e.__esModule ? () => e.default : () => e;
+    return t.d(n, { a: n }), n;
   }),
-    (n.d = (e, t) => {
-      for (var r in t)
-        n.o(t, r) &&
-          !n.o(e, r) &&
-          Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
+    (t.d = (e, n) => {
+      for (var r in n)
+        t.o(n, r) &&
+          !t.o(e, r) &&
+          Object.defineProperty(e, r, { enumerable: !0, get: n[r] });
     }),
-    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
-    (n.nc = void 0),
+    (t.o = (e, n) => Object.prototype.hasOwnProperty.call(e, n)),
+    (t.nc = void 0),
     (() => {
-      var e = n(379),
-        t = n.n(e),
-        r = n(795),
-        o = n.n(r),
-        a = n(569),
-        i = n.n(a),
-        s = n(565),
-        c = n.n(s),
-        u = n(216),
-        l = n.n(u),
-        d = n(589),
-        p = n.n(d),
-        m = n(426),
-        f = {};
-      (f.styleTagTransform = p()),
-        (f.setAttributes = c()),
-        (f.insert = i().bind(null, "head")),
-        (f.domAPI = o()),
-        (f.insertStyleElement = l()),
-        t()(m.Z, f),
+      var e = t(379),
+        n = t.n(e),
+        r = t(795),
+        o = t.n(r),
+        a = t(569),
+        i = t.n(a),
+        s = t(565),
+        c = t.n(s),
+        l = t(216),
+        d = t.n(l),
+        u = t(589),
+        p = t.n(u),
+        m = t(426),
+        A = {};
+      (A.styleTagTransform = p()),
+        (A.setAttributes = c()),
+        (A.insert = i().bind(null, "head")),
+        (A.domAPI = o()),
+        (A.insertStyleElement = d()),
+        n()(m.Z, A),
         m.Z && m.Z.locals && m.Z.locals;
-      const v = () => {
+      const f = () => {
           const e = document.querySelector("form"),
-            t = document.querySelector("#confirm_password"),
-            n = document.querySelector("#confirm_password + .error");
+            n = document.querySelector("#confirm_password"),
+            t = document.querySelector("#confirm_password + .error");
           function r() {
             confirm_password.validity.valueMissing
-              ? (n.textContent = "You need to type the password again")
+              ? (t.textContent = "You need to type the password again")
               : confirm_password.value !== password.value &&
-                (n.textContent = "Password does not match, try again"),
-              (n.className = "error active");
+                (t.textContent = "Password does not match, try again"),
+              (t.className = "error active");
           }
           return (
-            t.addEventListener("input", (e) => {
+            n.addEventListener("input", (e) => {
               confirm_password.value === password.value
-                ? ((n.textContent = ""), (n.className = "error"))
+                ? ((t.textContent = ""), (t.className = "error"))
                 : r();
             }),
             e.addEventListener("submit", (e) => {
               confirm_password.value !== password.value &&
                 (r(), e.preventDefault());
             }),
-            { form: e, confirm_password, confirmError: n }
+            { form: e, confirm_password, confirmError: t }
           );
         },
-        A = (() => {
+        v = (() => {
           const {
               form: e,
-              email: t,
-              emailError: n,
+              email: n,
+              emailError: t,
             } = (() => {
               const e = document.querySelector("form"),
-                t = document.querySelector("#user_email"),
-                n = document.querySelector("#user_email + .error");
+                n = document.querySelector("#user_email"),
+                t = document.querySelector("#user_email + .error");
               function r() {
-                t.validity.valueMissing
-                  ? (n.textContent = "You need to enter an email address")
-                  : t.validity.typeMismatch
-                    ? (n.textContent =
+                n.validity.valueMissing
+                  ? (t.textContent = "You need to enter an email address")
+                  : n.validity.typeMismatch
+                    ? (t.textContent =
                         "Entered value needs to be an email address")
-                    : t.validity.tooShort &&
-                      (n.textContent = `Email should be at least ${t.minLength} characters; you entered ${t.value.length}.`),
-                  (n.className = "error active");
+                    : n.validity.tooShort &&
+                      (t.textContent = `Email should be at least ${n.minLength} characters; you entered ${n.value.length}.`),
+                  (t.className = "error active");
               }
               return (
-                t.addEventListener("input", (e) => {
-                  t.validity.valid
-                    ? ((n.textContent = ""), (n.className = "error"))
+                n.addEventListener("input", (e) => {
+                  n.validity.valid
+                    ? ((t.textContent = ""), (t.className = "error"))
                     : r();
                 }),
                 e.addEventListener("submit", (e) => {
-                  t.validity.valid || (r(), e.preventDefault());
+                  n.validity.valid || (r(), e.preventDefault());
                 }),
-                { form: e, email: t, emailError: n }
+                { form: e, email: n, emailError: t }
               );
             })(),
             { country: r, countryError: o } = (() => {
               const e = document.querySelector("form"),
-                t = document.querySelector("#country"),
-                n = document.querySelector("#country + .error");
+                n = document.querySelector("#country"),
+                t = document.querySelector("#country + .error");
               function r() {
-                t.validity.valueMissing &&
-                  (n.textContent = "You need to select a country"),
-                  (n.className = "error active");
+                n.validity.valueMissing &&
+                  (t.textContent = "You need to select a country"),
+                  (t.className = "error active");
               }
               return (
-                t.addEventListener("click", () => {
-                  t.validity.valid
-                    ? ((n.textContent = ""), (n.className = "error"))
+                n.addEventListener("click", () => {
+                  n.validity.valid
+                    ? ((t.textContent = ""), (t.className = "error"))
                     : r();
                 }),
                 e.addEventListener("submit", (e) => {
-                  t.validity.valid || (r(), e.preventDefault());
+                  n.validity.valid || (r(), e.preventDefault());
                 }),
-                { form: e, country: t, countryError: n }
+                { form: e, country: n, countryError: t }
               );
             })(),
             { zipCode: a, zipCodeError: i } = (() => {
               const e = document.querySelector("form"),
-                t = document.querySelector("#zip_code"),
-                n = document.querySelector("#zip_code + .error"),
+                n = document.querySelector("#zip_code"),
+                t = document.querySelector("#zip_code + .error"),
                 r = document.querySelector(".zip_code.warnings");
               function o() {
-                if (((n.className = "error active"), t.validity.valueMissing))
-                  n.textContent = "You need to enter a Zip Code";
-                else if (t.validity.tooShort)
-                  n.textContent = `Zip Code should be at least ${t.minLength} characters; you entered ${t.value.length}.`;
+                if (((t.className = "error active"), n.validity.valueMissing))
+                  t.textContent = "You need to enter a Zip Code";
+                else if (n.validity.tooShort)
+                  t.textContent = `Zip Code should be at least ${n.minLength} characters; you entered ${n.value.length}.`;
                 else {
-                  (n.className = "error"), i(r);
+                  (t.className = "error"), i(r);
                   const e = document.createElement("li");
                   e.textContent = "Remember, you can only use numbers;";
-                  const t = document.createElement("li");
-                  t.textContent =
+                  const n = document.createElement("li");
+                  n.textContent =
                     "The basic format consist of 5 digits, but you can add a hyphen and 4 more digits;";
                   const o = document.createElement("li");
                   (o.textContent =
                     "Some valid Zip Codes: 20521-9000; 42223; 85254;"),
-                    r.append(e, t, o);
+                    r.append(e, n, o);
                 }
               }
               function a(e) {
@@ -414,86 +414,86 @@
                 e.replaceChildren();
               }
               return (
-                t.addEventListener("input", () => {
-                  a(t.value)
-                    ? ((n.textContent = ""), (n.className = "error"), i(r))
+                n.addEventListener("input", () => {
+                  a(n.value)
+                    ? ((t.textContent = ""), (t.className = "error"), i(r))
                     : o();
                 }),
                 e.addEventListener("submit", (e) => {
-                  !1 === a(t.value) && (o(), e.preventDefault());
+                  !1 === a(n.value) && (o(), e.preventDefault());
                 }),
-                { form: e, zipCode: t, zipCodeError: n }
+                { form: e, zipCode: n, zipCodeError: t }
               );
             })(),
             { password: s, passwordError: c } = (() => {
               const e = document.querySelector("form"),
-                t = document.querySelector("#password"),
-                n = document.querySelector("#password + .error"),
+                n = document.querySelector("#password"),
+                t = document.querySelector("#password + .error"),
                 r = document.querySelector(".password.warnings");
               let o;
               function a() {
-                if (((n.className = "error active"), t.validity.valueMissing))
-                  n.textContent = "You need to create a password";
+                if (((t.className = "error active"), n.validity.valueMissing))
+                  t.textContent = "You need to create a password";
                 else {
-                  (n.textContent = "The password must contain:"), i(r);
+                  (t.textContent = "The password must contain:"), i(r);
                   const e = document.createElement("li");
                   e.textContent = "Min. 8 characters;";
-                  const t = document.createElement("li");
-                  t.textContent = "Include lowercase letter;";
+                  const n = document.createElement("li");
+                  n.textContent = "Include lowercase letter;";
                   const o = document.createElement("li");
                   o.textContent = "Include uppercase letter;";
                   const a = document.createElement("li");
                   a.textContent = "Include number;";
                   const s = document.createElement("li");
                   (s.textContent = "Include a special character: #.-?!@$%^&*"),
-                    r.append(e, t, o, a, s);
+                    r.append(e, n, o, a, s);
                 }
               }
               function i(e) {
                 e.replaceChildren();
               }
               return (
-                t.addEventListener("input", () => {
+                n.addEventListener("input", () => {
                   var e;
-                  t.value.length >= 8 &&
-                  ((e = t.value), /[a-z]/.test(e)) &&
+                  n.value.length >= 8 &&
+                  ((e = n.value), /[a-z]/.test(e)) &&
                   (function (e) {
                     return /[A-Z]/.test(e);
-                  })(t.value) &&
+                  })(n.value) &&
                   (function (e) {
                     return /\d/.test(e);
-                  })(t.value) &&
+                  })(n.value) &&
                   (function (e) {
                     return /[#.?!@$%^&*-]/.test(e);
-                  })(t.value)
+                  })(n.value)
                     ? (i(r),
-                      (n.textContent = ""),
-                      (n.className = "error"),
+                      (t.textContent = ""),
+                      (t.className = "error"),
                       (o = !0))
                     : a();
                 }),
                 e.addEventListener("submit", (e) => {
                   !0 !== o && (a(), e.preventDefault());
                 }),
-                { form: e, password: t, passwordError: n }
+                { form: e, password: n, passwordError: t }
               );
             })(),
-            { confirm_password: u, confirmError: l } = v();
+            { confirm_password: l, confirmError: d } = f();
           return {
             form: e,
-            email: t,
-            emailError: n,
+            email: n,
+            emailError: t,
             country: r,
             countryError: o,
             zipCode: a,
             zipCodeError: i,
             password: s,
             passwordError: c,
-            confirm_password: u,
-            confirmError: l,
+            confirm_password: l,
+            confirmError: d,
           };
         })();
-      for (let e in A) A[e];
+      for (let e in v) v[e];
     })();
 })();
 //# sourceMappingURL=app.bundle.js.map
