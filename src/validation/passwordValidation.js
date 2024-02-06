@@ -23,6 +23,8 @@ const verifyPassword = () => {
 
       passwordError.className = "error";
 
+      warnings.className = "password warnings";
+
       submitVal = true;
     } else {
       showError("tooShort");
@@ -44,6 +46,12 @@ const verifyPassword = () => {
       passwordError.textContent = "You need to create a password";
     } else {
       passwordError.textContent = "The password must contain:";
+
+      passwordError.className = "error";
+
+      passwordError.textContent = "";
+
+      warnings.className = "password warnings active";
 
       empty(warnings);
 

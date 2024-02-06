@@ -13,16 +13,16 @@
         ]),
           i.push([
             e.id,
-            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
+            '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}',
             "",
             {
               version: 3,
               sources: ["webpack://./src/style.css"],
               names: [],
               mappings:
-                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;EACxB,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;;EAEE,iBAAiB;EACjB,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB",
+                "AAAA;EACE,sBAAsB;EACtB,UAAU;EACV,SAAS;AACX;;AAIA;;EAEE,YAAY;EACZ;4DAC0D;AAC5D;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,wBAAwB;EACxB,gCAAgC;EAChC,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,8BAA8B;EAC9B,iBAAiB;EACjB,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,SAAS;EACT,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;AACxB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,qBAAqB;AACvB;;AAEA;;EAEE,iBAAiB;EACjB,cAAc;EACd,YAAY;EACZ,sBAAsB;EACtB,0BAA0B;EAC1B,eAAe;AACjB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,YAAY;AACd",
               sourcesContent: [
-                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n',
+                '* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\n@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");\n\nhtml,\nbody {\n  height: 100%;\n  font-family: "Roboto", system-ui, "Segoe UI", Helvetica, Arial, sans-serif,\n    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";\n}\n\n.main-container {\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.form-container {\n  min-height: 300px;\n  width: 400px;\n  border-radius: 10px;\n  border: 1px solid orange;\n  border-bottom: 20px solid orange;\n  padding: 10px;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: left;\n  gap: 20px;\n}\n\ninput[type="email"] {\n  appearance: none;\n  border: 1px solid #000000;\n  margin: 0;\n  font-size: 90%;\n}\n\ninput:invalid {\n  border-color: #900;\n  background-color: #fdd;\n}\n\ninput:focus:invalid {\n  outline: none;\n}\n\nul {\n  list-style-type: none;\n}\n\n.error,\nul {\n  font-weight: bold;\n  font-size: 80%;\n  color: white;\n  background-color: #900;\n  border-radius: 0 0 5px 5px;\n  margin-top: 6px;\n}\n\n.error.active {\n  padding: 0.3em;\n}\n\nul.warnings.active {\n  padding: 6px;\n}',
               ],
               sourceRoot: "",
             },
@@ -395,7 +395,10 @@
                 else if (n.validity.tooShort)
                   t.textContent = `Zip Code should be at least ${n.minLength} characters; you entered ${n.value.length}.`;
                 else {
-                  (t.className = "error"), i(r);
+                  (t.className = "error"),
+                    (t.textContent = ""),
+                    (r.className = "zip_code warnings active"),
+                    i(r);
                   const e = document.createElement("li");
                   e.textContent = "Remember, you can only use numbers;";
                   const n = document.createElement("li");
@@ -416,7 +419,10 @@
               return (
                 n.addEventListener("input", () => {
                   a(n.value)
-                    ? ((t.textContent = ""), (t.className = "error"), i(r))
+                    ? ((t.textContent = ""),
+                      (t.className = "error"),
+                      (r.className = "zip_code warnings"),
+                      i(r))
                     : o();
                 }),
                 e.addEventListener("submit", (e) => {
@@ -435,7 +441,11 @@
                 if (((t.className = "error active"), n.validity.valueMissing))
                   t.textContent = "You need to create a password";
                 else {
-                  (t.textContent = "The password must contain:"), i(r);
+                  (t.textContent = "The password must contain:"),
+                    (t.className = "error"),
+                    (t.textContent = ""),
+                    (r.className = "password warnings active"),
+                    i(r);
                   const e = document.createElement("li");
                   e.textContent = "Min. 8 characters;";
                   const n = document.createElement("li");
@@ -469,6 +479,7 @@
                     ? (i(r),
                       (t.textContent = ""),
                       (t.className = "error"),
+                      (r.className = "password warnings"),
                       (o = !0))
                     : a();
                 }),

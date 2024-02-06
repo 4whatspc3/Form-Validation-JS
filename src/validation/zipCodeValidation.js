@@ -13,6 +13,8 @@ const verifyZipCode = () => {
 
       zipCodeError.className = "error";
 
+      warnings.className = "zip_code warnings";
+
       empty(warnings);
     } else {
       showError();
@@ -37,6 +39,10 @@ const verifyZipCode = () => {
         zipCodeError.textContent = `Zip Code should be at least ${zipCode.minLength} characters; you entered ${zipCode.value.length}.`;
       } else {
         zipCodeError.className = "error";
+
+        zipCodeError.textContent = "";
+
+        warnings.className = "zip_code warnings active";
 
         empty(warnings);
 

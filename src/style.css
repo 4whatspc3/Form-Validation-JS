@@ -70,3 +70,7 @@ ul {
 .error.active {
   padding: 0.3em;
 }
+
+ul.warnings.active {
+  padding: 6px;
+}
